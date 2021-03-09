@@ -17,3 +17,5 @@ while True:
 total_amount = Invoice().totalPurePrice(products)
 
 print("Your total pure price is: ", total_amount)
+#print(Invoice().displayItems(qnt, unit_price, discount))
+print(Invoice().displayItemName(product))

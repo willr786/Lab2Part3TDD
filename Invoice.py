@@ -45,3 +45,11 @@ class Invoice:
             else:
                 return userInput
 
+    def displayItemName(self, products):
+        itemName = str(products)
+        return itemName
+
+    def displayItems(self, qnt, price, discount):
+        self.addProduct(qnt, price, discount)
+        invoiceItems = str(self.items)
+        return invoiceItems
